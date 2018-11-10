@@ -1,0 +1,10 @@
+actionid: python
+msg: getenv
+cmdargs: "'C:\\Python37\\python.exe' -m virtualenv --python 'C:\\Python37\\python.exe' python"
+
+Already using interpreter C:\Python37\python.exe
+Using base prefix 'C:\\Python37'
+C:\Users\sebas\AppData\Roaming\Python\Python37\site-packages\virtualenv.py:1041: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+New python executable in C:\Users\sebas\PycharmProjects\anagrama\.tox\python\Scripts\python.exe
+Installing setuptools, pip, wheel...done.

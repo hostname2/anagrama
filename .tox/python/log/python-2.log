@@ -1,0 +1,15 @@
+actionid: python
+msg: installpkg
+cmdargs: "'C:\\Users\\sebas\\PycharmProjects\\anagrama\\.tox\\python\\Scripts\\python.EXE' -m pip install --exists-action w 'C:\\Users\\sebas\\PycharmProjects\\anagrama\\.tox\\.tmp\\package\\1\\anagrama-0.0.0.zip'"
+
+Processing c:\users\sebas\pycharmprojects\anagrama\.tox\.tmp\package\1\anagrama-0.0.0.zip
+Building wheels for collected packages: anagrama
+  Running setup.py bdist_wheel for anagrama: started
+  Running setup.py bdist_wheel for anagrama: finished with status 'done'
+  Stored in directory: C:\Users\sebas\AppData\Local\pip\Cache\wheels\6f\08\9a\3c233561012d9fa36e0bb10ab54ba9361e717586923df8b1c9
+Successfully built anagrama
+Installing collected packages: anagrama
+  Found existing installation: anagrama 0.0.0
+    Not uninstalling anagrama at c:\users\sebas\pycharmprojects\anagrama, outside environment C:\Users\sebas\PycharmProjects\anagrama\.tox\python
+    Can't uninstall 'anagrama'. No files were found to uninstall.
+Successfully installed anagrama-0.0.0

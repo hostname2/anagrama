@@ -1,0 +1,43 @@
+actionid: tox
+msg: packaging
+cmdargs: "'C:\\Python37\\python.exe' 'C:\\Users\\sebas\\PycharmProjects\\anagrama\\setup.py' sdist --formats=zip --dist-dir 'C:\\Users\\sebas\\PycharmProjects\\anagrama\\.tox\\dist'"
+
+WARNING: '' not a valid package name; please use only .-separated package names in setup.py
+C:\Python37\lib\site-packages\setuptools\dist.py:406: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  "details." % self.metadata.version
+running sdist
+running egg_info
+writing anagrama.egg-info\PKG-INFO
+writing dependency_links to anagrama.egg-info\dependency_links.txt
+writing top-level names to anagrama.egg-info\top_level.txt
+reading manifest file 'anagrama.egg-info\SOURCES.txt'
+writing manifest file 'anagrama.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating anagrama-0.0.0
+creating anagrama-0.0.0\anagrama.egg-info
+copying files to anagrama-0.0.0...
+copying anagram.py -> anagrama-0.0.0
+copying setup.py -> anagrama-0.0.0
+copying test_anagram.py -> anagrama-0.0.0
+copying anagrama.egg-info\PKG-INFO -> anagrama-0.0.0\anagrama.egg-info
+copying anagrama.egg-info\SOURCES.txt -> anagrama-0.0.0\anagrama.egg-info
+copying anagrama.egg-info\dependency_links.txt -> anagrama-0.0.0\anagrama.egg-info
+copying anagrama.egg-info\top_level.txt -> anagrama-0.0.0\anagrama.egg-info
+Writing anagrama-0.0.0\setup.cfg
+creating 'C:\Users\sebas\PycharmProjects\anagrama\.tox\dist\anagrama-0.0.0.zip' and adding 'anagrama-0.0.0' to it
+adding 'anagrama-0.0.0\anagram.py'
+adding 'anagrama-0.0.0\PKG-INFO'
+adding 'anagrama-0.0.0\setup.cfg'
+adding 'anagrama-0.0.0\setup.py'
+adding 'anagrama-0.0.0\test_anagram.py'
+adding 'anagrama-0.0.0\anagrama.egg-info\dependency_links.txt'
+adding 'anagrama-0.0.0\anagrama.egg-info\PKG-INFO'
+adding 'anagrama-0.0.0\anagrama.egg-info\SOURCES.txt'
+adding 'anagrama-0.0.0\anagrama.egg-info\top_level.txt'
+removing 'anagrama-0.0.0' (and everything under it)

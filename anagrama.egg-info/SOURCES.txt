@@ -1,0 +1,7 @@
+anagram.py
+setup.py
+test_anagram.py
+anagrama.egg-info/PKG-INFO
+anagrama.egg-info/SOURCES.txt
+anagrama.egg-info/dependency_links.txt
+anagrama.egg-info/top_level.txt
